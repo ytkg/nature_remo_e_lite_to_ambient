@@ -1,0 +1,29 @@
+GEM
+  remote: https://rubygems.org/
+  specs:
+    addressable (2.7.0)
+      public_suffix (>= 2.0.2, < 5.0)
+    dotenv (2.7.6)
+    faraday (0.17.3)
+      multipart-post (>= 1.2, < 3)
+    launchy (2.4.3)
+      addressable (~> 2.3)
+    multipart-post (2.1.1)
+    nature_remo (0.5.0)
+      faraday (~> 0.17.0)
+      launchy (~> 2.4.3)
+      thor (~> 0.20.3)
+    public_suffix (4.0.6)
+    ruby-ambient (0.1.0)
+    thor (0.20.3)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  dotenv
+  nature_remo
+  ruby-ambient
+
+BUNDLED WITH
+   2.1.4
